@@ -5,10 +5,10 @@
 #ifndef SNAKE_H
 #define SNAKE_H
 
-#include <snake.h>
-#include <fruit.h>
-#include "display/renderer.h"
-#include "controls/controls.h"
+#include "arduino-snake-game/snake.h"
+#include "../actions/arduino-snake-game/fruit.h"
+#include "../display/renderer.h"
+#include "../controls/controls.h"
 
 namespace SnakeGame {
     void tooglePlayPause();

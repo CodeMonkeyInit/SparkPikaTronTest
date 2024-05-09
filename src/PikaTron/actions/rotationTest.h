@@ -5,8 +5,8 @@
 #ifndef ROTATIONTEST_H
 #define ROTATIONTEST_H
 
-#include "controls/controls.h"
-#include "display/display.h"
+#include "../controls/controls.h"
+#include "../display/display.h"
 
 void rotationTestLoop(bool force = false);
 void youSpinMeLoop(bool force = false);

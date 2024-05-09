@@ -6,12 +6,12 @@
 #define DISPLAY_H
 
 #include <Adafruit_SSD1306.h>
-#include "bitmaps/pika.h"
-#include "bitmaps/cursedPika.h"
-#include "bitmaps/myboard.h"
-#include "bitmaps/firstBoard.h"
-#include "bitmaps/myboard_alt.h"
-#include "bitmaps/whatIsMyPurpose.h"
+#include "../bitmaps/pika.h"
+#include "../bitmaps/cursedPika.h"
+#include "../bitmaps/myboard.h"
+#include "../bitmaps/firstBoard.h"
+#include "../bitmaps/myboard_alt.h"
+#include "../bitmaps/whatIsMyPurpose.h"
 
 extern Adafruit_SSD1306 display;
 

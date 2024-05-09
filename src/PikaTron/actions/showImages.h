@@ -7,7 +7,7 @@
 
 
 
-#include "controls/controls.h"
+#include "../controls/controls.h"
 
 void showImagesLoop();
 

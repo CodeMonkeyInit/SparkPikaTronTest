@@ -1,9 +1,9 @@
 #pragma once
 
 #include "Arduino.h"
-#include "snake.h"
-#include "position.h"
-#include "fruit.h"
+#include "../actions/arduino-snake-game/snake.h"
+#include "../actions/arduino-snake-game/position.h"
+#include "../actions/arduino-snake-game/fruit.h"
 #include "display.h"
 
 namespace Renderer {

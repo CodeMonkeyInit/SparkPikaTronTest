@@ -6,8 +6,8 @@
 #define WHATISMYPURPOSE_H
 
 
-#include "display/display.h"
-#include "bitmaps/whatIsMyPurpose.h"
+#include "../display/display.h"
+#include "../bitmaps/whatIsMyPurpose.h"
 
 void whatIsMyPurpose();
 

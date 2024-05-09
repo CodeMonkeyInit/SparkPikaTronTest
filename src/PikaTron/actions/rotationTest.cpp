@@ -31,17 +31,18 @@ String youSpinMe[] = {
 };
 
 void youSpinMeLoop(bool force) {
-    const auto newVolume = uint(rightEncoder->read() / 4);
-
-    if (newVolume != volume || force) {
-        display.clearDisplay();
-        volume = newVolume;
-        display.setCursor(0, 0);
-        display.setTextSize(1);
-        display.setTextColor(WHITE);
-        display.println(youSpinMe[newVolume % youSpinMeLength]);
-        display.display();
-        display.setTextSize(1);
-    }
+    // const auto encoderValue = rightEncoder->read();
+    // const auto newVolume = static_cast<uint>(encoderValue / 4);
+    //
+    // if (newVolume != volume || force) {
+    //     display.clearDisplay();
+    //     volume = newVolume;
+    //     display.setCursor(0, 0);
+    //     display.setTextSize(1);
+    //     display.setTextColor(WHITE);
+    //     display.println(youSpinMe[newVolume % youSpinMeLength]);
+    //     display.display();
+    //     display.setTextSize(1);
+    // }
 
 }

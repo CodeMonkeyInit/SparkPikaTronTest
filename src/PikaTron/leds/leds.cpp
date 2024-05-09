@@ -26,7 +26,7 @@ void writeLedsLoop() {
 
     for (const auto &ledPin: leds) {
         pinMode(ledPin.first, OUTPUT);
-        analogWrite(ledPin.first, ledStats[ledPin.second] ? 5 : 0);
+        digitalWrite(ledPin.first, ledStats[ledPin.second] ? HIGH : LOW);
         if (printLeds) {
             Serial.print(ledPin.second);
             Serial.print(" ");

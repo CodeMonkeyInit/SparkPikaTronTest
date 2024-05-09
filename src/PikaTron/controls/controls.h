@@ -7,15 +7,15 @@
 #define CONTROLS_H
 
 
-#include "display/display.h"
+#include "../display/display.h"
 #include <map>
 
 #include <EasyButton.h>
-#include "devicesConstants.h"
-#include <actions/rotationTest.h>
-#include <actions/snake.h>
-#include <actions/whatIsMyPurpose.h>
-#include "leds/leds.h"
+#include "../devicesConstants.h"
+#include "../actions/rotationTest.h"
+#include "../actions/snake.h"
+#include "../actions/whatIsMyPurpose.h"
+#include "../leds/leds.h"
 #include <Encoder.h>
 
 
