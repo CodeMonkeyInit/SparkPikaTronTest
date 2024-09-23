@@ -21,9 +21,9 @@ const int blueButtonPin = 19;
 const int greenButtonPin = 18;
 const int purpleButtonPin = 5;
 
-const int leftEncoderPinA = 35;
+const int leftEncoderPinA = 36;
 const int leftEncoderPinB = 39;
-const int leftEncoderPinButton = 34;
+const int leftEncoderPinButton = 42;
 
 const int centerEncoderPinA = 32;
 const int centerEncoderPinB = 33;
@@ -31,7 +31,7 @@ const int centerEncoderPinButton = 23;
 
 const int rightEncoderPinA = 25;
 const int rightEncoderPinB = 26;
-const int rightEncoderPinButton = 27;
+const int rightEncoderPinButton = 34;
 
 
 
